@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Packers and Transport | Safe Shifting Across Tamil Nadu</title>
+
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="nova.css" />
+</head>
+
+<body class="loading-locked">
+
+    <!-- MODERN WHITE PRELOADER -->
+
+    <div id="preloader-overlay" aria-hidden="false">
+        <div class="preloader-ambient-glow"></div>
+        <div class="preloader-card">
+
+            <!-- Large Flight Wrapper (Strict 1:1 Aspect Ratio) -->
+            <div id="splash-flight-wrap" class="preloader-flight-wrap">
+                <!-- High-Contrast Navy & Cyan Rotating Spinner Ring -->
+                <div class="preloader-spinner-ring"></div>
+
+                <!-- Inner Logo Container: Crisp White Core with Drop Shadow -->
+                <div class="preloader-logo-core">
+                    <img id="splash-logo" src="src/New-Nova-logo.png" alt="Nova Packers & Transport Logo" />
+                </div>
+            </div>
+
+            <!-- Logistics Road & Moving Cargo Truck Indicator -->
+            <div class="preloader-road-track">
+                <div class="preloader-truck-runner">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div class="preloader-road-line"></div>
+            </div>
+
+            <!-- Corporate Status & Trust Tagline -->
+            <div class="preloader-text-group">
+                <p class="preloader-status">Preparing Safe Transit...</p>
+                <span class="preloader-tagline"><i class="fa-solid fa-shield-halved"></i> 10+ Years of Verified
+                    Shifting</span>
+            </div>
+        </div>
+    </div>
+    <!-- ========================================================================== -->
+
+    <!-- Top Header: Logo, Company Name, Motto & Direct Call Numbers -->
+    <div class="top-header">
+        <div class="header-brand-group">
+            <div class="logo-box">
+                <!-- Target Destination Header Logo -->
+                <img id="header-logo-target" src="src/New-Nova-logo.png" alt="Nova Packers Logo" />
+            </div>
+            <div class="brand-meta">
+                <h1>Nova Packers & Transport</h1>
+                <span class="company-motto">
+                    Your Belongings, Our Responsibility
+                </span>
+            </div>
+        </div>
+
+        <div class="header-contact-group">
+            <div class="contact-chip">
+                <i class="fa-solid fa-phone-volume"></i>
+                <div>
+                    <span class="contact-chip-label">Phone</span>
+                    <a href="tel:9940752079">+91 99407 52079</a>
+                </div>
+            </div>
+            <div class="contact-chip">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <div>
+                    <span class="contact-chip-label">WhatsApp</span>
+                    <a href="tel:8778493877">+91 87784 93877</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Navigation Bar -->
+    <header>
+        <div class="nav-tagline">
+            <i class="fa-solid fa-clock"></i> 24*7 Relocation & Shifting Support
+        </div>
+
+        <nav id="navbar">
+            <button class="nav-btn active" onclick="switchPage('home')"><i class="fa-solid fa-house"></i> Home</button>
+            <button class="nav-btn" onclick="switchPage('about')"><i class="fa-solid fa-circle-info"></i> About
+                Us</button>
+            <button class="nav-btn" onclick="switchPage('services')"><i class="fa-solid fa-boxes-packing"></i>
+                Services</button>
+            <!-- [MODIFIED] Renamed "Categories" navigation link to "Reach Us" -->
+            <button class="nav-btn" onclick="switchPage('reach-us')"><i class="fa-solid fa-map-location-dot"></i>
+                Reach Us</button>
+            <button class="nav-btn" onclick="switchPage('gallery')"><i class="fa-solid fa-images"></i> Gallery</button>
+            <button class="nav-btn nav-cta" onclick="switchPage('contact')"><i class="fa-solid fa-paper-plane"></i> Book
+                Move</button>
+        </nav>
+    </header>
+
+    <!-- ======================== PAGE 1: HOME ======================== -->
+    <main id="home" class="page-section active">
+
+        <!-- Hero Slider Section -->
+        <section class="slider-hero-container">
+            <div class="hero-banner">
+                <div class="slider-carousel" data-slider="hero">
+                    <img class="slide-item active" src="src/home 1.png">
+                    <img class="slide-item active" src="src/home 2.png">
+                    <img class="slide-item active" src="src/home 3.png">
+                </div>
+
+                <div class="hero-overlay"></div>
+
+                <div class="hero-content">
+                    <!-- <div class="hero-badge">
+                        <i class="fa-solid fa-location-arrow"></i> Originating from Aruppukottai to All Over Tamil Nadu
+                    </div> -->
+                    <h1>Welcome to</h1>
+                    <h1><span>Nova Packers</span></h1>
+                    <p>Tamil Nadu's leading relocation specialists delivering secure packing, precision handling, and
+                        seamless transitions to all over India.</p>
+
+                    <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+                        <button class="btn btn-accent" onclick="switchPage('contact')">
+                            <i class="fa-solid fa-calculator"></i> Get Free Quote
+                        </button>
+                        <button class="btn btn-outline" onclick="switchPage('gallery')">
+                            <i class="fa-solid fa-images"></i> View Gallery
+                        </button>
+                    </div>
+                </div>
+
+                <div class="slider-controls" id="hero-slider-dots">
+                    <span class="slider-dot active" onclick="manualSlide('hero', 0)"></span>
+                    <span class="slider-dot" onclick="manualSlide('hero', 1)"></span>
+                    <span class="slider-dot" onclick="manualSlide('hero', 2)"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Legacy & Operations -->
+        <section class="story-section">
+            <div class="section-header">
+                <span class="section-badge">Our Legacy & Operations</span>
+                <h2 class="section-title">Serving Tamil Nadu for Over 10 Years</h2>
+                <div class="highlight-badge">
+                    <i class="fa-solid fa-award"></i>
+                    <span>The first pioneer shifting company founded in Aruppukottai, setting benchmarks in safe
+                        transit.</span>
+                </div>
+            </div>
+
+            <div class="story-container">
+                <div class="story-card-left">
+                    <h3><i class="fa-solid fa-award" style="color: var(--primary);"></i> Our Decade-Long Heritage</h3>
+                    <p>
+                        <strong>Nova Packers & Transport</strong> is the very first packers and movers organization
+                        established in Aruppukottai. For over 10 plus consecutive years, we have been delivering
+                        exceptional
+                        shifting solutions with utmost dedication and care.
+                    </p>
+                    <p>
+                        Over the years, we have proudly delivered seamless, secure relocation services to bank
+                        officials, corporate executives, government personnel, and families across the region.
+                    </p>
+                </div>
+
+                <div class="story-card-right">
+                    <h3><i class="fa-solid fa-map-location-dot" style="color: var(--primary);"></i> Statewide
+                        Connectivity</h3>
+                    <p>
+                        Our operational network is not limited to Aruppukottai alone; we provide comprehensive
+                        door to door relocation across every city and district of Tamil Nadu.
+                    </p>
+                    <p>
+                        From Aruppukottai to all prime metropolitan cities including Chennai, Coimbatore, Madurai, and
+                        surrounding hubs Nova Packers ensures smooth transit backed by dedicated fleets and
+                        trained manpower. We remain the trusted pioneer meeting every customer requirement.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Services Preview -->
+        <section class="services-wrapper">
+            <div class="section-header">
+                <span class="section-badge">End-to-End Solutions</span>
+                <h2 class="section-title">Complete Shifting Services</h2>
+                <p>All service images feature dynamic multi-slide views illustrating our process in action.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card-slider">
+                        <span class="service-badge">Stage 01</span>
+                        <div class="slider-carousel" data-slider="serv-h1">
+                            <div class="slide-item active"
+                                style="background-image: url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=600');">
+                            </div>
+                            <div class="slide-item"
+                                style="background-image: url('https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&q=80&w=600');">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <h3>1. Secure Packing</h3>
+                        <p>Corrugated roll boxes, protective air bubble wrap, and high-quality gum tape.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-slider">
+                        <span class="service-badge">Stage 02</span>
+                        <div class="slider-carousel" data-slider="serv-h2">
+                            <div class="slide-item active"
+                                style="background-image: url('https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&q=80&w=600');">
+                            </div>
+                            <div class="slide-item"
+                                style="background-image: url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&q=80&w=600');">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <h3>2. Transport Arrangement</h3>
+                        <p>Mini to large closed/open trucks (from 8 ft mini trucks up to 22 ft container trucks) matched
+                            to your shipment.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-slider">
+                        <span class="service-badge">Stage 03</span>
+                        <div class="slider-carousel" data-slider="serv-h3">
+                            <div class="slide-item active"
+                                style="background-image: url('https://images.pexels.com/photos/4246008/pexels-photo-4246008.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                            </div>
+                            <div class="slide-item"
+                                style="background-image: url('https://images.pexels.com/photos/7464703/pexels-photo-7464703.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <h3>3. Source Loading</h3>
+                        <p>Carefully managed disassembly of wardrobes and hydraulic cots with scientific loading
+                            distribution.</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-slider">
+                        <span class="service-badge">Stage 04</span>
+                        <div class="slider-carousel" data-slider="serv-h4">
+                            <div class="slide-item active"
+                                style="background-image: url('https://images.unsplash.com/photo-1603796846097-bee99e4a601f?auto=format&fit=crop&q=80&w=600');">
+                            </div>
+                            <div class="slide-item"
+                                style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=600');">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-body">
+                        <h3>4. Destination Unloading</h3>
+                        <p>Prompt unloading, room-by-room furniture re-assembly, unboxing, and packing material
+                            clearing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======================== PAGE 2: ABOUT US ======================== -->
+    <section id="about" class="page-section about-page-wrapper">
+        <div class="section-header">
+            <h2 class="section-title">About Us</h2>
+        </div>
+
+        <div class="about-showcase-slider">
+            <div class="slider-carousel" data-slider="about-hero">
+                <div class="slide-item active">
+                    <img src="src/About 1.jpg" alt="">
+                </div>
+            </div>
+            <div class="about-showcase-overlay">
+                <div>
+                    <h3 style="font-size: 1.8rem; color: #fff; margin-bottom: 6px;">Over 20 Years of Industry Experience
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-company-header">
+            <div>
+                <h3>Established in 2014 & Powered by 20+ Years Experienced Specialists</h3>
+                <p style="margin-top: 10px; color: #475569;">
+                    Originally established in 2014 in Aruppukkottai, we have been operating continuously since 2018 from
+                    Perkinspuram 1st Street, Madurai Road, Aruppukkottai. Our core operational team comprises
+                    professionals who possess over 20 years of hands-on experience in the transport and packing domain.
+                </p>
+                <div class="stat-pills">
+                    <div class="stat-pill"><i class="fa-solid fa-calendar-check"></i> Founded in 2014</div>
+                    <div class="stat-pill"><i class="fa-solid fa-user-gear"></i> 20+ Years Field Experience</div>
+                    <div class="stat-pill"><i class="fa-solid fa-location-dot"></i> Aruppukottai Headquarters</div>
+                </div>
+            </div>
+
+            <div class="address-box">
+                <h4> <i class="fa-solid fa-location-dot"></i> Registered Address</h4>
+                <p><strong>Nova Packers and Transport</strong></p>
+                <p>Perkinspuram 1st Street, Madurai Road,</p>
+                <p>Aruppukottai - 626101, Tamil Nadu.</p>
+                <p style="margin-top: 12px; font-size: 0.9rem; color: var(--accent);">
+                    <i class="fa-solid fa-phone"></i> <strong> +91 99407 52079 / +91 87784 93877 </strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="section-header" style="margin-top: 60px;">
+            <span class="section-badge">Transparent Workflow</span>
+            <h2 class="section-title">How We Function</h2>
+            <p>Our systematic 5-step estimate and relocation process guarantees complete clarity and satisfaction.</p>
+        </div>
+
+        <div class="process-grid">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h4>Customer Approach</h4>
+                <p>As soon as a client reaches out regarding relocation, our representative immediately takes
+                    down their
+                    move specifications.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h4>Physical Survey</h4>
+                <p>We obtain the current address and physically visit the home to inspect all goods, furniture,
+                    and
+                    fragile belongings.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h4>Resource Planning</h4>
+                <p>We calculate the exact vehicle type, packing materials, and labor force required at both
+                    source and
+                    destination.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">4</div>
+                <h4>All-Inclusive Quote</h4>
+                <p>Vehicle rental, worker wages, and material costs are combined into one clear, competitive,
+                    final
+                    fixed quote.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">5</div>
+                <h4>Execution & Satisfaction</h4>
+                <p>Once the agreement is confirmed, our trained crew executes the move to ensure 100% customer
+                    peace of
+                    mind.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== PAGE 3: SERVICES ======================== -->
+    <section id="services" class="page-section services-wrapper">
+        <div class="section-header">
+            <span class="section-badge">Comprehensive Offerings</span>
+            <h2 class="section-title">Our Core Service Pillars</h2>
+            <p>Each service comes equipped with trained handlers and protective packaging systems.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-card-slider">
+                    <span class="service-badge">Stage 01</span>
+                    <div class="slider-carousel" data-slider="serv-p1">
+                        <div class="slide-item active"
+                            style="background-image: url('https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?auto=format&fit=crop&q=80&w=800');">
+                        </div>
+                        <div class="slide-item"
+                            style="background-image: url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=800');">
+                        </div>
+                    </div>
+                </div>
+                <div class="service-body">
+                    <h3>1. Secure Packing in Good Condition</h3>
+                    <p>We pack every household item with precision using corrugated roll boxes, high-quality gum tape,
+                        multi-layer cartons, bubble wrap, and gunny packing options.</p>
+                    <ul class="service-highlights">
+                        <li><i class="fa-solid fa-check"></i> Corrugated roll (BOX) & quality gum tape</li>
+                        <li><i class="fa-solid fa-check"></i> Gunny pack usage is available</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-card-slider">
+                    <span class="service-badge">Stage 02</span>
+                    <div class="slider-carousel" data-slider="serv-p2">
+                        <div class="slide-item active"
+                            style="background-image: url('https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&q=80&w=800');">
+                        </div>
+                        <div class="slide-item"
+                            style="background-image: url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&q=80&w=800');">
+                        </div>
+                    </div>
+                </div>
+                <div class="service-body">
+                    <h3>2. Transport Arrangement</h3>
+                    <p>We supply mini, medium, and large trucks to cater to moves of any scale. Fleets range from 8 ft
+                        mini trucks up to 22 ft trucks in both open and closed options.</p>
+                    <ul class="service-highlights">
+                        <li><i class="fa-solid fa-check"></i> Mini, medium & large trucks</li>
+                        <li><i class="fa-solid fa-check"></i> 8 ft mini truck to 22 ft open/closed trucks</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-card-slider">
+                    <span class="service-badge">Stage 03</span>
+                    <div class="slider-carousel" data-slider="serv-p3">
+                        <div class="slide-item active"
+                            style="background-image: url('https://images.pexels.com/photos/4246008/pexels-photo-4246008.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                        </div>
+                        <div class="slide-item"
+                            style="background-image: url('https://images.pexels.com/photos/7464703/pexels-photo-7464703.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                        </div>
+                    </div>
+                </div>
+                <div class="service-body">
+                    <h3>3. Source Loading</h3>
+                    <p>Handled by seasoned crews specializing in heavy furniture dismantling, hydraulic cots, wardrobes,
+                        and scientific weight distribution for a balanced ride.</p>
+                    <ul class="service-highlights">
+                        <li><i class="fa-solid fa-check"></i> Heavy furniture & hydraulic cot dismantling</li>
+                        <li><i class="fa-solid fa-check"></i> Heavy-duty tie-down anchor ropes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-card-slider">
+                    <span class="service-badge">Stage 04</span>
+                    <div class="slider-carousel" data-slider="serv-p4">
+                        <div class="slide-item active"
+                            style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800');">
+                        </div>
+                        <div class="slide-item"
+                            style="background-image: url('https://images.unsplash.com/photo-1603796846097-bee99e4a601f?auto=format&fit=crop&q=80&w=800');">
+                        </div>
+                    </div>
+                </div>
+                <div class="service-body">
+                    <h3>4. Destination Unloading</h3>
+                    <p>Direct placement in rooms, re-assembly of beds and wardrobes, thorough unboxing, and debris
+                        cleanup right inside your new residence.</p>
+                    <ul class="service-highlights">
+                        <li><i class="fa-solid fa-check"></i> Complete room placement & assembly</li>
+                        <li><i class="fa-solid fa-check"></i> Final walkthrough inspection before sign-off</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== PAGE 4: REACH US ======================== -->
+    <!-- [MODIFIED] Renamed & restructured Categories page to "Reach Us" with Logo Header, Left Contact Box & Right Exact Pin Map -->
+    <section id="reach-us" class="page-section reach-us-wrapper">
+        <div class="section-header">
+            <span class="section-badge">Direct Connect & Location</span>
+            <h2 class="section-title">Reach Us</h2>
+        </div>
+
+        <!-- Centered Company Logo Banner Above the Two-Column Layout -->
+        <div class="reach-logo-showcase">
+            <div class="reach-logo-circle">
+                <img src="src/New-Nova-logo.png" alt="Nova Packers and Transport Logo"
+                    onerror="handleImgError(this, 'Nova Logo')" />
+            </div>
+        </div>
+
+        <!-- Two-Column Layout Below the Logo: Left = Contact Information, Right = Exact Coordinates Google Map -->
+        <div class="reach-us-grid">
+            <!-- Left Column: Transferred Contact Information Box -->
+            <div class="contact-card">
+                <h3>Nova Packers & Transport</h3>
+                <p style="color: #64748b; margin-top: 4px; margin-bottom: 24px;">Lead by <strong>Dharma Raj A</strong>
+                </p>
+
+                <div class="contact-item">
+                    <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="c-info">
+                        <small>Direct Mobile Number 1</small>
+                        <a href="tel:9940752079">+91 99407 52079</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="c-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <div class="c-info">
+                        <small>Direct Mobile Number 2</small>
+                        <a href="tel:8778493877">+91 87784 93877</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="c-info">
+                        <small>Official Email Address</small>
+                        <a href="mailto:novapackerstranspotrs@gmail.com">novapackerstransports@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="c-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <div class="c-info">
+                        <small>Operating Headquarters</small>
+                        <span style="font-weight: 700; color: var(--dark); font-size: 0.95rem;">
+                            Perkinspuram 1st Street, Madurai Road, Aruppukottai - 626101, Tamil Nadu
+                        </span>
+                    </div>
+                </div>
+
+                <div style="margin-top: 25px; display: flex; gap: 12px; flex-wrap: wrap;">
+                    <a href="tel:9940752079" class="btn btn-primary" style="flex: 1; justify-content: center;">
+                        <i class="fa-solid fa-phone"></i> Call 99407 52079
+                    </a>
+                    <a href="https://wa.me/918778493877?text=Hello%20Nova%20Packers,%20I%20need%20a%20quote"
+                        target="_blank" class="btn"
+                        style="background:#25d366; color:white; flex: 1; justify-content: center;">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Column: Interactive Google Map -->
+            <div class="map-card">
+                <div class="map-card-header">
+                    <div>
+                        <h4> Nova Packers and Transport</h4>
+                        <h4><i class="fa-solid fa-location-crosshairs"></i>Aruppukottai - 626101</h4>
+                    </div>
+                    <a href="https://maps.app.goo.gl/ra8Hz9j9eQfGrxz4A" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-accent map-directions-btn">
+                        <i class="fa-solid fa-diamond-turn-right"></i> Open in Google Maps
+                    </a>
+                </div>
+
+                <div class="map-iframe-container">
+                    <iframe title="Nova Packers and Transport Exact Location Map"
+                        src="https://maps.google.com/maps?q=9.517792700469158,78.09521599878&z=17&output=embed"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== SERVICE SHOWCASE GALLERY ======================== -->
+    <section id="gallery" class="page-section gallery-page-wrapper">
+        <div class="section-header">
+            <span class="section-badge">Our Real Moves</span>
+            <h2 class="section-title">Service Showcase Gallery</h2>
+            <p>Explore real photographs from our packing, loading, transit, and unloading operations across Tamil Nadu.
+            </p>
+        </div>
+
+        <!-- Call to Action Banner (Enhanced) -->
+        <div class="gallery-cta-banner enhanced-cta">
+            <div class="cta-content-wrapper">
+                <div class="cta-icon-badge">
+                    <i class="fa-solid fa-truck-ramp-box"></i>
+                </div>
+                <div class="cta-text-group">
+                    <h3>Planning a relocation anywhere across Tamil Nadu?</h3>
+                    <p>
+                        Speak directly with <strong>Dharma Raj A</strong> for verified rates and complimentary physical
+                        survey visits.
+                    </p>
+                </div>
+            </div>
+            <div class="cta-action-group">
+                <button class="btn btn-accent" onclick="switchPage('contact')">
+                    <i class="fa-solid fa-calculator"></i> Get Free Quote
+                </button>
+                <a href="tel:8778493877" class="btn btn-outline cta-call-btn">
+                    <i class="fa-solid fa-phone-volume"></i> Call Now
+                </a>
+            </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="gallery-filters" role="tablist">
+            <button class="gallery-filter-btn active" data-filter="all">All (15)</button>
+            <button class="gallery-filter-btn" data-filter="house">House Shifting (3)</button>
+            <button class="gallery-filter-btn" data-filter="office">Our safe handling (3)</button>
+            <button class="gallery-filter-btn" data-filter="vehicle">Vehicle Transport (3)</button>
+            <button class="gallery-filter-btn" data-filter="packing">Packing & Unpacking (3)</button>
+            <button class="gallery-filter-btn" data-filter="storage">Storage (3)</button>
+        </div>
+
+        <!-- Gallery Grid (15 Total Items: 3 Per Category) -->
+        <div class="gallery-grid" id="gallery-grid">
+
+            <!-- ================= CATEGORY 1: HOUSE SHIFTING ================= -->
+            <!-- House Shifting 1 -->
+            <article class="gallery-card" data-category="house" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/house-shifting-1.jpeg" alt="Apartment Living Room Furniture Transit" loading="lazy"
+                        onerror="handleImgError(this, 'House Shifting 1')" />
+                    <span class="gallery-tag">House Shifting</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Apartment Furniture Transit</h4>
+                        <p class="gallery-desc">Door-to-door transit of sofas, dining tables, and delicate home
+                            appliances.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- House Shifting 2 -->
+            <article class="gallery-card" data-category="house" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/house-shifting-2.jpeg" alt="Hydraulic Cot & Wardrobe Dismantling" loading="lazy"
+                        onerror="handleImgError(this, 'House Shifting 2')" />
+                    <span class="gallery-tag">House Shifting</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Wardrobe Care</h4>
+                        <p class="gallery-desc">Wardrobe Care dismantling and destination re-assemble.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- House Shifting 3 -->
+            <article class="gallery-card" data-category="house" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/house-shifting-3.jpeg" alt="Destination Unloading & Setup" loading="lazy"
+                        onerror="handleImgError(this, 'House Shifting 3')" />
+                    <span class="gallery-tag">House Shifting</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Destination Room Placement</h4>
+                        <p class="gallery-desc">Precise placement of beds, tables, and clearing of all packing
+                            materials.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= CATEGORY 2: Safe handling ================= -->
+            <!-- Our safe handling 1 -->
+            <article class="gallery-card" data-category="office" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/Our safe handling 1.jpeg" alt="Corporate Workspace Shifting" loading="lazy"
+                        onerror="handleImgError(this, 'Our Safe Handling 1')" />
+                    <span class="gallery-tag">Our safe handling</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Hydraulic Cot & Wardrobe Care</h4>
+                        <p class="gallery-desc">Expert dismantling and destination re-assemble.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Our safe handling 2 -->
+            <article class="gallery-card" data-category="office" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/Our safe handling 2.jpeg" alt="Server & IT Equipment Relocation" loading="lazy"
+                        onerror="handleImgError(this, 'Our Safe Handling 2')" />
+                    <span class="gallery-tag">Our safe handling</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Electonics Transit</h4>
+                        <p class="gallery-desc">Anti-static bubble wrap and crates for Electronics.</p>
+                    </div>
+
+                </div>
+            </article>
+
+            <!-- Our safe handling 3 -->
+            <article class="gallery-card" data-category="office" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/Our safe handling 3.jpeg" alt="Conference & Executive Setup" loading="lazy"
+                        onerror="handleImgError(this, 'Our Safe Handling 3')" />
+                    <span class="gallery-tag">Our safe handling</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Smooth handling </h4>
+                        <p class="gallery-desc">our crew handled all the goods with extra care.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= CATEGORY 3: VEHICLE TRANSPORT ================= -->
+            <!-- Vehicle Transport 1 -->
+            <article class="gallery-card" data-category="vehicle" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/vehicle-transport-1.jpeg" alt="Enclosed Two-Wheeler Transit" loading="lazy"
+                        onerror="handleImgError(this, 'Vehicle Transport 1')" />
+                    <span class="gallery-tag">Vehicle Transport</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Enclosed Bike Shifting</h4>
+                        <p class="gallery-desc">Bubble wrapping, foam fork covers, and heavy-duty tie-down
+                            straps.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Vehicle Transport 2 -->
+            <article class="gallery-card" data-category="vehicle" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/vehicle-transport-2.jpeg" alt="Dedicated Truck Fleet Loading" loading="lazy"
+                        onerror="handleImgError(this, 'Vehicle Transport 2')" />
+                    <span class="gallery-tag">Vehicle Transport</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Container Truck Fleet Loading</h4>
+                        <p class="gallery-desc">Covered container trucks ranging from 8 ft mini pickups to 22 ft trucks.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Vehicle Transport 3 -->
+            <article class="gallery-card" data-category="vehicle" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/vehicle-transport-3.jpeg" alt="Highway Transit Across Tamil Nadu" loading="lazy"
+                        onerror="handleImgError(this, 'Vehicle Transport 3')" />
+                    <span class="gallery-tag">Vehicle Transport</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Statewide Highway Transit</h4>
+                        <p class="gallery-desc">Smooth door-to-door cargo conveyance from Aruppukottai to all over
+                            India.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= CATEGORY 4: PACKING & UNPACKING ================= -->
+            <!-- Packing 1 -->
+            <article class="gallery-card" data-category="packing" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/packing-service-1.jpeg" alt="Corrugated Box & Gum Tape Wrapping" loading="lazy"
+                        onerror="handleImgError(this, 'Packing & Unpacking 1')" />
+                    <span class="gallery-tag">Packing & Unpacking</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Multi-Layer Corrugated Packaging</h4>
+                        <p class="gallery-desc">Corrugated rolls, industrial gum tape, and sturdy cartons for household
+                            items.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Packing 2 -->
+            <article class="gallery-card" data-category="packing" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/packing-service-2.jpeg" alt="Air Bubble Wrap for Glassware" loading="lazy"
+                        onerror="handleImgError(this, 'Packing & Unpacking 2')" />
+                    <span class="gallery-tag">Packing & Unpacking</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Fragile Crockery Protection</h4>
+                        <p class="gallery-desc">Multi-layer bubble wrap shields glassware, mirrors, and kitchen sets.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Packing 3 -->
+            <article class="gallery-card" data-category="packing" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/packing-service-3.jpeg" alt="Gunny Bag & Mattress Wrap" loading="lazy"
+                        onerror="handleImgError(this, 'Packing & Unpacking 3')" />
+                    <span class="gallery-tag">Packing & Unpacking</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Mattress & Heavy Fabric Packing</h4>
+                        <p class="gallery-desc">Heavy-duty gunny bags and waterproof stretch film preventing dust and
+                            stains.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= CATEGORY 5: WAREHOUSE & STORAGE ================= -->
+            <!-- Warehouse 1 -->
+            <article class="gallery-card" data-category="storage" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/warehouse-1.jpeg" alt="Secured Palletized Warehouse Storage" loading="lazy"
+                        onerror="handleImgError(this, 'Storage 1')" />
+                    <span class="gallery-tag">
+                        Storage</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Scalable Storage & Logistics Facilities</h4>
+                        <p class="gallery-desc">Safe storage preventing ground dampness and damage.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Warehouse 2 -->
+            <article class="gallery-card" data-category="storage" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/warehouse-2.jpeg" alt="CCTV Monitored Goods Facility" loading="lazy"
+                        onerror="handleImgError(this, 'Storage 2')" />
+                    <span class="gallery-tag">Storage</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Optimizing Storage</h4>
+                        <p class="gallery-desc">From warehouse to delivery, our storage solutions ensure precision and
+                            reliability.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Warehouse 3 -->
+            <article class="gallery-card" data-category="storage" onclick="openDynamicLightbox(this)">
+                <div class="gallery-image-box">
+                    <img src="src/warehouse-3.jpeg" alt="Commercial Inventory Holding" loading="lazy"
+                        onerror="handleImgError(this, 'Storage 3')" />
+                    <span class="gallery-tag">Storage</span>
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        <h4 class="gallery-title">Efficient Storage</h4>
+                        <p class="gallery-desc">We optimize storage to keep your supply chain moving without delays.</p>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- ======================== FULLSCREEN LIGHTBOX MODAL ======================== -->
+
+    <div id="gallery-lightbox" class="lightbox-modal" aria-hidden="true" role="dialog" onclick="closeLightbox()">
+        <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close Lightbox">&times;</button>
+
+        <button class="lightbox-nav-btn lightbox-prev" onclick="changeLightboxImage(-1, event)"
+            aria-label="Previous Image">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-nav-btn lightbox-next" onclick="changeLightboxImage(1, event)" aria-label="Next Image">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="lightbox-container" onclick="event.stopPropagation()">
+            <div class="lightbox-media">
+                <img id="lightbox-img" src="" alt="Enlarged Fullscreen Showcase" />
+            </div>
+            <div class="lightbox-caption">
+                <div class="lightbox-caption-text">
+                    <span id="lightbox-badge" class="gallery-tag">Category</span>
+                    <h3 id="lightbox-title">Title</h3>
+                    <p id="lightbox-desc">Description</p>
+                </div>
+                <span id="lightbox-counter" class="lightbox-counter">1 / 15</span>
+            </div>
+        </div>
+    </div>
+    <!-- ================================================================ -->
+
+    <!-- ======================== PAGE 5: BOOK MOVE ======================== -->
+    <section id="contact" class="page-section contact-wrapper">
+        <div class="section-header">
+            <span class="section-badge">Book Your Move</span>
+            <h2 class="section-title">Request a Home Visit / Moving Quote</h2>
+            <p>Submit your origin, destination, and shifting details for a prompt physical survey and transparent fixed
+                quote.</p>
+        </div>
+
+        <!-- Booking Inquiry Form -->
+
+        <div class="book-move-single-container">
+            <div class="booking-box">
+                <h3 class="section-header">Relocation & Shifting Estimate Form</h3>
+                <div id="form-status-msg"
+                    style="display: none; padding: 12px; border-radius: 6px; margin-bottom: 16px; font-weight: 600; font-size: 0.95rem;">
+                </div>
+
+                <form onsubmit="handleFormSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Your Name *</label>
+                            <input type="text" id="cust-name" class="form-control" placeholder="e.g. Suresh" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Contact Phone Number *</label>
+                            <input type="tel" id="cust-phone" class="form-control" placeholder="10-digit mobile number"
+                                pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Pickup Location (From Address) *</label>
+                            <input type="text" id="cust-pickup" class="form-control" placeholder="e.g. Aruppukkottai"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label>Drop Location (To Address) *</label>
+                            <input type="text" id="cust-drop" class="form-control"
+                                placeholder="e.g. Chennai / Coimbatore" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Pickup Location Floor *</label>
+                            <input type="text" id="cust-pickup-floor" class="form-control"
+                                placeholder="e.g. Ground / 1st / 2nd" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Drop Location Floor *</label>
+                            <input type="text" id="cust-drop-floor" class="form-control"
+                                placeholder="e.g. Ground / 1st / 2nd" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Pickup Location Lift *</label>
+                            <select id="cust-pickup-lift" class="form-control" required>
+                                <option value="" disabled selected>-- Select Lift Status --</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Drop Location Lift *</label>
+                            <select id="cust-drop-lift" class="form-control" required>
+                                <option value="" disabled selected>-- Select Lift Status --</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Shifting Category *</label>
+                            <select id="cust-category" class="form-control" required>
+                                <option value="" disabled selected>-- Select Category --</option>
+                                <option value="Household / Apartment Shifting">Household / Apartment Shifting</option>
+                                <option value="Office / Corporate Relocation">Office / Corporate Relocation</option>
+                                <option value="Car / Bike Shifting">Car / Bike Shifting</option>
+                                <option value="Heavy Furniture / Single Parcel">Heavy Furniture / Single Parcel</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>(If any) Expected Shifting Date</label>
+                            <input type="date" id="cust-date" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Belongings Description / Heavy Items</label>
+                        <textarea id="cust-message" class="form-control" rows="3"
+                            placeholder="Mention hydraulic cot, wardrobe, double door fridge, washing machine..."></textarea>
+                    </div>
+
+                    <!-- Updated WhatsApp CTA Button -->
+                    <button type="submit" id="submit-btn" class="btn btn-whatsapp-submit">
+                        <i class="fa-brands fa-whatsapp"></i> Send Quote Request
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp CTA -->
+    <a href="https://wa.me/918778493877?text=Hello%20Nova%20Packers,%20I%20need%20details%20about%20your%20services"
+        class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="f-col">
+                <h3 style="color: var(--white); margin-bottom: 10px;">Nova Packers & Transport</h3>
+                <p>Aruppukkottai’s pioneer shifting and regional logistics service since 2014. Powered by veterans with
+                    over 20 years of experience. Safe, dedicated shifting across Tamil Nadu.</p>
+                <p style="margin-top: 10px; color: var(--accent); font-weight: 700;">Managed by Dharma Raj A</p>
+            </div>
+
+            <div class="f-col">
+                <h4>Site Links</h4>
+                <ul class="f-links">
+                    <li><a onclick="switchPage('home')">Home</a></li>
+                    <li><a onclick="switchPage('about')">About Us</a></li>
+                    <li><a onclick="switchPage('services')">Our 4 Core Services</a></li>
+                    <!-- [MODIFIED] Updated Footer link to Reach Us -->
+                    <li><a onclick="switchPage('reach-us')">Reach Us</a></li>
+                    <li><a onclick="switchPage('gallery')">Showcase Gallery</a></li>
+                    <li><a onclick="switchPage('contact')">Book Move</a></li>
+                </ul>
+            </div>
+
+            <div class="f-col">
+                <h4>Core Services</h4>
+                <ul class="f-links">
+                    <li><a onclick="switchPage('services')">Secure Packing</a></li>
+                    <li><a onclick="switchPage('services')">Transport Arrangement</a></li>
+                    <li><a onclick="switchPage('services')">Source Loading</a></li>
+                    <li><a onclick="switchPage('services')">Destination Unloading</a></li>
+                    <li><a onclick="switchPage('reach-us')">Our Location & Map</a></li>
+                </ul>
+            </div>
+
+            <div class="f-col">
+                <h4>Head Office</h4>
+                <p><i class="fa-solid fa-phone" style="color: var(--accent); margin-right: 6px;"></i> +91 99407 52079
+                </p>
+                <p style="margin-top: 6px;"><i class="fa-solid fa-mobile-screen"
+                        style="color: var(--accent); margin-right: 6px;"></i> +91 87784 93877</p>
+                <p style="margin-top: 6px;"><i class="fa-solid fa-location-dot"
+                        style="color: var(--accent); margin-right: 6px;"></i> Perkinspuram 1st Street, Madurai Road,
+                    Aruppukkottai - 626101</p>
+            </div>
+        </div>
+
+        <div
+            style="text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 0.85rem;">
+            &copy; <span id="current-year"></span> Nova Packers and Transport. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- External JavaScript File -->
+    <script src="nova.js"></script>
+</body>
+
+</html>
